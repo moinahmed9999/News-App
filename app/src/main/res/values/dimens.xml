@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="headline_horizontal_padding">12dp</dimen>
+    <dimen name="headline_vertical_padding">24dp</dimen>
+    <dimen name="headline_iv_size">96dp</dimen>
+</resources>
