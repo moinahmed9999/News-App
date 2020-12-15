@@ -47,15 +47,4 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <!--    <ImageButton-->
-    <!--        android:id="@+id/iv_options"-->
-    <!--        android:layout_width="wrap_content"-->
-    <!--        android:layout_height="wrap_content"-->
-    <!--        android:background="?selectableItemBackgroundBorderless"-->
-    <!--        android:contentDescription="@string/image_desc"-->
-    <!--        android:padding="4dp"-->
-    <!--        app:layout_constraintEnd_toEndOf="parent"-->
-    <!--        app:layout_constraintTop_toTopOf="@id/tv_news_title"-->
-    <!--        app:srcCompat="@drawable/ic_more_options" />-->
-
 </androidx.cardview.widget.CardView>

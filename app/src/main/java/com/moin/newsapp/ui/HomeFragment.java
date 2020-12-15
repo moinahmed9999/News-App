@@ -9,7 +9,6 @@ import androidx.fragment.app.Fragment;
 import androidx.navigation.Navigation;
 import androidx.viewpager2.widget.ViewPager2;
 
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -27,13 +26,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class HomeFragment extends Fragment {
-
-    public static final String TAG = "HomeFragment";
-
     private View view;
     private TabLayout tabLayout;
     private ViewPager2 viewPager;
-
     private List<Category> categories;
 
     @Override
@@ -80,7 +75,6 @@ public class HomeFragment extends Fragment {
 
     @Override
     public void onCreateOptionsMenu(@NonNull Menu menu, @NonNull MenuInflater inflater) {
-        Log.d(TAG, "onCreateOptionsMenu: ");
         inflater.inflate(R.menu.menu_search, menu);
 
         super.onCreateOptionsMenu(menu, inflater);
@@ -89,7 +83,6 @@ public class HomeFragment extends Fragment {
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         if (item.getItemId() == R.id.action_search) {
-            Log.d(TAG, "onOptionsItemSelected: ");
             Navigation.findNavController(getView()).navigate(R.id.action_homeFragment_to_searchFragment);
             return true;
         }

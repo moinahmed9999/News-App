@@ -8,7 +8,6 @@ import androidx.paging.PagedList;
 
 import com.moin.newsapp.viewmodel.repository.SearchRepository;
 import com.moin.newsapp.model.Response;
-import com.moin.newsapp.viewmodel.repository.SearchRepository;
 
 public class SearchViewModel extends ViewModel {
     private final SearchRepository repository = new SearchRepository();
